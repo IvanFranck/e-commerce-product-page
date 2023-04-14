@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--orange);
+    offset: none;
+    border: none;
+    border-radius: var(--border-radius);
+    color: var(--color-background);
+    padding: 12px 0;
+    cursor: pointer;
+
+    span {
+
+        font-weight: 600;
+    }
+
+    &:hover {
+        background-color: var(--orange-smooth);
+    }
+
+    &--shadow {
+        box-shadow:
+            0px 2.1px 2.2px rgba(255, 126, 27, 0.02),
+            0px 5px 5.3px rgba(255, 126, 27, 0.108),
+            0px 9.4px 10px rgba(255, 126, 27, 0.135),
+            0px 16.8px 17.9px rgba(255, 126, 27, 0.202),
+            0px 31.3px 33.4px rgba(255, 126, 27, 0.245),
+            0px 75px 80px rgba(255, 126, 27, 0.49);
+    }
+}
